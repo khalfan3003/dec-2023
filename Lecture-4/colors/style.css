@@ -1,0 +1,12 @@
+h1{
+    color: rgb(255, 128, 10);
+}
+h2{
+    color: rgba(255, 128, 10, 0.4);
+}
+/* h3{
+    color: #fe4c10;
+} */
+h3{
+    color: #fe4c10ff;
+}
