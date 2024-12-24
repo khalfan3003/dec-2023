@@ -1,0 +1,60 @@
+/* div{
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+div:hover{
+    background-color: green;
+    border: 1px solid red;
+} */
+
+/* ----------------------- */
+
+/* active */
+
+/* a{
+    color: pink;
+}
+
+a:active{
+    color: blue;
+    font-size: 100px;
+} */
+
+
+/* ----------------------- */
+
+/* focus */
+
+/* a:focus , input:focus{
+    background-color: blue;
+} */
+
+/* ----------------------- */
+
+/* visited */
+/* a:visited{
+    color: peru;
+} */
+
+/* ----------------------- */
+
+
+/* li:nth-of-type(odd){
+    color: red;
+} */
+/* li:nth-of-type(even){
+    color: blue;
+} */
+
+/* n=0,1 */
+/* li:nth-of-type(2n + 4){
+    color: red;
+}
+
+li:nth-of-type(7){
+    background-color: orange;
+} */
+
+/* ------------------- */
+

@@ -1,0 +1,16 @@
+p::first-letter{
+    font-size: 100px;
+    color: red;
+}
+
+p::first-line{
+    font-family: monospace;
+}
+
+li::before{
+    content: " i am samarth vohra ";
+}
+li::after{
+    /* backslash */
+    content: "\1F609";
+}

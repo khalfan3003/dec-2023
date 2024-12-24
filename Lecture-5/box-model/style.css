@@ -1,0 +1,26 @@
+div , span{
+
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+
+    /* content= WxH */
+    background-color: orchid;
+    width: 100px;
+    height: 100px;
+
+    /* padding */
+    padding: 10px;
+
+    /* border */
+    border: 5px solid black;
+
+    /* margin */
+    margin: 10px;
+}
+
+span:nth-of-type(1){
+    /* display: block; */
+    /* display: inline-block; */
+    display: none;
+    visibility: hidden;
+}

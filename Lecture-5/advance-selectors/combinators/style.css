@@ -1,0 +1,31 @@
+
+/* adjacent */
+/* section div p span{ */
+/* section div span{
+    color: red;
+} */
+
+
+/* ------------ */
+
+/* child */
+/* section > div > p > span{
+    color: red;
+} */
+
+/* ---------------- */
+ul>p{
+    color: red;
+}
+/* adjacent */
+/* ul>p + li{
+    color: green;
+} */
+
+/* general sibling */
+ul>p ~ li{
+    color: green;
+}
+
+
+
