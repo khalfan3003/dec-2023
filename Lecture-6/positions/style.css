@@ -1,0 +1,88 @@
+/* universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* static */
+/* #static #middle{
+    position: static;
+    top: 100px;
+    left: 100px;
+} */
+
+
+/* ---------------- */
+
+/* relative */
+
+/* #relative #middle{
+    position: relative;
+    top: 50px;
+    left: 50px;
+} */
+
+/* ---------------- */
+/* absolute */
+
+/* 1. comes out of the plane */
+/* 2. it takes offset accoding to the recently positioned parent */
+
+/* #absolute{
+    position: relative;
+    border: 1px solid black;
+}
+#absolute #middle{
+    position: absolute;
+    top: 100px;
+} */
+
+
+
+/* ---------------- */
+/* fixed */
+/* 1. comes out of the plane */
+/* 2. always take offset accoring to the viewport no matter what happends */
+
+
+/* #fixed{
+    position: relative;
+} */
+/* 
+#fixed #middle{
+    position: fixed;
+    top: 200px;
+} */
+
+/* #fixed */
+/* #fixed{
+    position:relative
+} */
+
+/* ------------------------- */
+
+
+/* sticky -> it has extra space */
+#sticky{
+    height: 500px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+#sticky #middle{
+    position: sticky;
+    top: 100px;
+}
+
+
+
+
