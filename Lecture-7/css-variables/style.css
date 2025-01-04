@@ -1,0 +1,15 @@
+:root{
+    --my-font-size: 150px;
+    --my-color: palevioletred;
+    --my-border: 2px solid mediumaquamarine;
+}
+
+h1{
+    font-size: var(--my-font-size);
+}
+h2{
+    color: palevioletred;
+}
+h3{
+    border: var(--my-border);
+}

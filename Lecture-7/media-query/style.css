@@ -1,0 +1,70 @@
+
+div{
+    width: 600px;
+    border: 10px solid red;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+}
+p{
+    font-size: 30px;
+    color:  blue;
+}
+
+
+
+/* media query should always be aty the bottom */
+
+
+
+/* @media screen and (min-width:500px) {
+    h1{
+        color: greenyellow;
+        font-size: 200px;
+        font-family: monospace;
+    }
+    p{
+        color: green;
+        font-family: cursive;
+    }
+    div{
+        border: 20px solid brown;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    h1{
+        color: blue;
+        font-size: 100px;
+    }
+    p{
+        color: orange;
+    }
+    div{
+        border: 20px solid black;
+    }
+} */
+
+
+/* @media screen and (orientation:landscape){ */
+@media screen and (orientation:portrait) , (max-width:600px){
+    h1{
+        color: red;
+    }
+}
+
+
+
+h3::before{
+    content: "hello";
+}
+
+h3::after{
+    background-color: red;
+    content: "hello";
+}
